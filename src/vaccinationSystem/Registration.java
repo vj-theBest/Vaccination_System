@@ -42,7 +42,8 @@ public class Registration {
 			System.out.println("Entered number is not a valid number, Re-enter a Valid phone number");
 			phone=sc.next();
 		}
-		
+		System.out.println("All data entered Succefully!!");
+		sc.close();
 	}
 	// function will check if the mobile number is an valid Indian number or not 
 	public static boolean isValidPhoneNumber(String s) { 
@@ -64,7 +65,7 @@ public class Registration {
 	public static void main(String[] args) {
 		Registration r= new Registration();
 		r.inputData();
-		System.out.println("All data entered Succefully!!");
+		
 
 	}
 
